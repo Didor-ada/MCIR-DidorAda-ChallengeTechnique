@@ -14,3 +14,97 @@ Single-colored icons can be modified like so:
   color: red;
 }
 ========================================== */
+img{
+  width: 100%;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+header img {
+  width: 50px;
+  height: 50px;
+}
+
+.flex {
+  display: flex;
+}
+
+.card {
+  margin: 10px;
+}
+
+.card img {
+  height: 200px;
+}
+
+.card h2,
+.card p{
+  text-align: center;
+}
+
+.card a {
+  display: block;
+  text-align: center;
+}
+
+.hero {
+  background:url("../images/04.jpg");
+  background-size: cover;
+  height: 400px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.hero p, .hero h2 {
+  width: 50%;
+}
+
+.contains2 .card {
+  height: 500px;
+  position: relative;
+}
+
+.contains2 img {
+  height: 100%;
+}
+
+.contains2 .text {
+  position: absolute;
+  height: 40%;
+  top: 50%;
+  color: white;
+}
+
+footer {
+  background-color: #555555;
+}
+
+.icones {
+  justify-content: center;
+}
+
+.icones img {
+  width: 10px;
+  height: 10px;
+  margin: 30px 10px;
+}
+
+
