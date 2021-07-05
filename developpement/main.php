@@ -1,10 +1,10 @@
 <?php
-/*
- *  Les fichiers à inclure ici
- */
 
+require 'Animaux.php';
 
-
+require_once 'Chat.php';
+require_once 'Dog.php';
+require_once 'Poule.php';
 
 /*
  * Ne pas toucher à ce qui suit...
@@ -14,8 +14,10 @@
  * Affichage du chat
  */
 echo "<br>Le chat : ";
+
 $cat = new Chat("Mâle");
 $cat->Miaule();
+
 echo " Nombre de pattes : " . $cat->getNbPattes();
 
 /*
